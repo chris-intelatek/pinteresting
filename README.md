@@ -1,24 +1,4 @@
-# README
+# One Month Rails
+This is the pinteresting sample application for One Month Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is Chris Cunningham and I am learning to use Rails since I have some big projects that I need to complete and I am hoping that utilizing Rails will speed my time to delivery.
