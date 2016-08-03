@@ -1,0 +1,30 @@
+<div class="panel panel-default"> <!-- I added this line -->
+  <div class="panel-heading"> <!-- I added this line -->
+    <div class="panel-title"> <!-- I added this line -->
+
+      <%= form_for(pin) do |f| %>
+        <% if pin.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(pin.errors.count, "error") %> prohibited this pin from being saved:</h2>
+
+            <ul>
+            <% pin.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+            </ul>
+          </div>
+        <% end %>
+
+        <div class="form-group">
+          <%= f.label :decription %>
+          <%= f.text_field :decription, class: "form-control" %>
+        </div>
+
+        <div> <!-- I removed the class actions -->
+          <%= f.submit class: "btn btn-primary" %>
+        </div>
+      <% end %>
+
+    </div> <!-- I added this line -->
+  </div> <!-- I added this line -->
+</div> <!-- I added this line -->
